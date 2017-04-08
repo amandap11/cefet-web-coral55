@@ -12,11 +12,14 @@ header {
 }
 
 header h1 {
+	position: absolute;
 	font-family: 'Ravie';
 	font-size: 36px;
 	color: #e90c0c;
 	margin-bottom: 0;
 	width: 646px;
+	margin-top: 20px;
+	left: 225px;
 }
 
 #apagado {
@@ -24,12 +27,16 @@ header h1 {
 }
 
 header h2 {
-	font-family: 'Trebuchet MS';
-	font-size: 24px;
-	color: #333;
-	font-weight: normal;
-	margin-top: 0;
-	margin-bottom: 10px;
+	float: right;
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+    top: 70px;
+    left: 358px;
+    position: relative;
 
 }
 
@@ -72,7 +79,7 @@ h3 {
 	right: -1px;
 	width: 646px;
 	bottom: 116px;
-	top: 140px;
+	top: 120px;
 	font-size: 14px;
 	color: #333;
 	font-family: 'Verdana';
@@ -91,13 +98,9 @@ h3 {
 	font-size: 48px;
 	color: #333;
 	font-weight: bold;
-	margin-top: 365px;
+	margin-top: 390px;
 	transform: rotate(-90deg);
-	left: -9px;
-	/*margin-bottom: auto;
-	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;*/
+	left: -9px; 
 }
 
 p {
@@ -113,6 +116,7 @@ footer {
 	bottom: 25px;
 	position: absolute;
 	right: 15px;
+	box-sizing: border-box;
 }
 
 #siri {
@@ -122,11 +126,24 @@ footer {
 }
 
 #bolhas {
-
+	position: absolute;
+	right: 20px;
+	bottom: 125px;
 }
 
 #peixe {
 	position: absolute;
 	left: -44px;
 	bottom: 0;
+}
+
+#ticket img {
+  left: -69px;
+  transition: left 100ms ease-out; 
+  margin: 0;
+  top: 295px;
+  position: fixed;
+}
+#ticket:hover img {
+  left: 0;
 }
